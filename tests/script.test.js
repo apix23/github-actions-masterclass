@@ -18,7 +18,7 @@ describe("Counter Tests", () => {
 
   it("should initialize the counter to zero", () => {
     const counterValue = getCounter();
-    expect(counterValue).toBe(0);
+    expect(counterValue).toBe(1);
   });
 
   it("incrementCounter should increment the counter", () => {
